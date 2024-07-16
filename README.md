@@ -5,6 +5,10 @@
 
 Exercícios de aula da disciplina de Pensamento Computacional.
 
+## Sobre mim
+
+PREENCHER
+
 ## Fork do projeto
 
 Para criar o seu próprio projeto, clique no botão 'Fork' no topo da tela
