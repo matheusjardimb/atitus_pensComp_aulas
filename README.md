@@ -7,7 +7,17 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
 ## Sobre mim
 
-PREENCHER
+--PREENCHER--
+
+## DICAS:
+
+- Entenda completamente o que o exercício solicita ANTES de começar a programar.
+- Comece escrevendo um pseudo-código em português para estruturar a lógica que deseja criar.
+- Use nomes de variáveis claros e objetivos (prefira ‘nome’ em vez de ‘n’; prefira ‘idade’ em vez de ‘i’).
+- Acrescente comentários no código para ajudar a você mesmo.
+- Faça testes de mesa para validar a sua lógica: utilize papel e caneta, faça rabiscos!
+- Quando trabalhar com listas, preste muita atenção nos limites: avalie se não está tentando acessar uma posição menor
+  que zero ou maior que a última posição.
 
 ## Fork do projeto
 
