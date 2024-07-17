@@ -1,20 +1,14 @@
 def baskhara(a, b, c):
+    # retorne None se discriminante < 0
+    # retorne apenas um valor se discriminante == 0
+    # retorne [x1, x2] nos outros casos
     pass
 
 
-A = 2
-B = 3
-C = -2
-# [-2, 0.5]
+assert baskhara(1, -3, 2) == [2, 1]
+assert baskhara(2, 3, -2) == [-2, 0.5]
+assert baskhara(1, -5, 6) == [2, 3]
+assert baskhara(1, -7, 10) == [2, 5]
 
-A = 1
-B = -5
-C = 6
-
-# [2, 3]
-
-delta = B**2 - 4 * A * C
-div = 2 * A
-x1 = (-B - delta ** (1 / 2)) / div
-x2 = (-B + delta ** (1 / 2)) / div
-print("os valores das raízes de x são: ", x1, " e ", x2, ".")
+assert baskhara(1, 2, 3) is None
+assert baskhara(1, 0, 0) == 0
