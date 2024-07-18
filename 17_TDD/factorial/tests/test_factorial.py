@@ -1,10 +1,11 @@
-from factorial import factorial
+from ..op_factorial import factorial
 
 
 def test_factorial_none():
     assert factorial(None) is None
 
 
+# Falha pq 'bool' é interpretado como subclasse de int
 # def test_factorial_bool():
 #     assert factorial(True) is None
 #     assert factorial(False) is None
