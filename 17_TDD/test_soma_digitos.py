@@ -1,3 +1,4 @@
+
 def soma_str(param):
     return 0
 
