@@ -6,7 +6,7 @@ set -e
 # Function to run pytest on a given file with minimal output
 run_tests() {
   local file=$1
-  pytest -q --tb=no "$file"
+  pytest -q --tb=no --disable-warnings "$file"
 }
 
 ## No tests to run in the following folders
