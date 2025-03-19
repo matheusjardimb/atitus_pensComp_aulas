@@ -1,9 +1,11 @@
-def get_questions(amount: int = 10, difficulty: str = 'easy') -> dict:
+def get_questions(amount: int = 10, difficulty: str = "easy") -> dict:
     import http.client
     import json
 
     conn = http.client.HTTPSConnection("opentdb.com")
-    conn.request("GET", f"/api.php?amount={amount}&difficulty={difficulty}&type=multiple")
+    conn.request(
+        "GET", f"/api.php?amount={amount}&difficulty={difficulty}&type=multiple"
+    )
     response = conn.getresponse()
     response_text = response.read().decode()
     conn.close()
