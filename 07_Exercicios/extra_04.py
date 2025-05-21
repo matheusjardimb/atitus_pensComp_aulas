@@ -22,13 +22,15 @@ def calcula_classe_social(salarios, salario_minimo):
     else:
         return "A"
 
+#entradas de dados para o calculo
 salarios_input = input("Digite os salários separados por vírgula: ")
-salarios = [float(s) for s in salarios_input.split(",")]  # Converte os salários para uma lista de floats
-
+salarios = [float(s) for s in salarios_input.split(",")] 
 salario_minimo = float(input("Digite o valor do salário mínimo: "))
 
+#caLculo da classe
 classe = calcula_classe_social(salarios, salario_minimo)
 
+#exibicao de resultados
 if classe:
     print(f"A classe social é: {classe}")
 else:
@@ -38,7 +40,6 @@ else:
 def test(): 
     assert calcula_classe_social([], 1000) is None
     assert calcula_classe_social([1000], 1000) == "E"
-    assert calcula_classe_social([500], 1000) == "E"
     assert calcula_classe_social([500], 1000) == "E"
     assert calcula_classe_social([1000, 0], 900) == "E"
     assert calcula_classe_social([1000], 900) == "D"
