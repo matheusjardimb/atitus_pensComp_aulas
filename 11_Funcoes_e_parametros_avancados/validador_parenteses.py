@@ -13,8 +13,8 @@ def test_validos():
 
 def test_invalidos():
     # Valores inválidos
-    assert validador_parenteses(")")
-    assert validador_parenteses("(")
-    assert validador_parenteses("()(")
-    assert validador_parenteses("()()())")
-    assert validador_parenteses("(((())())")
+    assert not validador_parenteses(")")
+    assert not validador_parenteses("(")
+    assert not validador_parenteses("()(")
+    assert not validador_parenteses("()()())")
+    assert not validador_parenteses("(((())())")

@@ -1,5 +1,4 @@
 def fatorial(numero):
-    # Preencher
     pass
 
 

@@ -7,7 +7,7 @@ def limpa_tela():
 def espera():
     import time
 
-    time.sleep(0.5)  # Espera meio segundo (500ms)
+    time.sleep(5)  # Espera meio segundo (500ms)
 
 
 def desenha_tela():
@@ -15,4 +15,11 @@ def desenha_tela():
     pass
 
 
-desenha_tela()
+def main():
+    # Loop?
+    limpa_tela()
+    espera()
+    desenha_tela()
+
+
+main()
