@@ -1,8 +1,27 @@
-def real_para_dolar(valor, tx_conversao):
-    # Preencher
-    pass
-
-
-assert real_para_dolar(500, 5.20) == 96.23
-assert real_para_dolar(500, 1) == 500
-assert real_para_dolar(500, 6) == 83.33333333333333
+def nome_do_mes(numero_mes):
+    if numero_mes == 1:
+        return "Janeiro"
+    elif numero_mes == 2:
+        return "Fevereiro"
+    elif numero_mes == 3:
+        return "Março"
+    elif numero_mes == 4:
+        return "Abril"
+    elif numero_mes == 5:
+        return "Maio"
+    elif numero_mes == 6:
+        return "Junho"
+    elif numero_mes == 7:
+        return "Julho"
+    elif numero_mes == 8:
+        return "Agosto"
+    elif numero_mes == 9:
+        return "Setembro"
+    elif numero_mes == 10:
+        return "Outubro"
+    elif numero_mes == 11:
+        return "Novembro"
+    elif numero_mes == 12:
+        return "Dezembro"
+    else:
+        return "ERRO"

@@ -3,5 +3,6 @@ def inverte_sinal(a: int) -> int:
     pass
 
 
-assert inverte_sinal(1) == -1
-assert inverte_sinal(-2) == 2
+def test():
+    assert inverte_sinal(1) == -1
+    assert inverte_sinal(-2) == 2

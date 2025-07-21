@@ -9,6 +9,12 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
 --PREENCHER--
 
+## ATENÇÃO:
+
+Altere o arquivo run_tests.sh a cada aula, removendo o comentário da linha respectiva para que os testes executem.
+
+Também será necessário acessar o menu "Actions" em seu repositório para ativar a execução dos testes pelo Github.
+
 ## DICAS:
 
 - Entenda completamente o que o exercício solicita ANTES de começar a programar.
